@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    <title>Todo</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  
+  <body>
+    <div class="wrapper">
+      <div class="content">
+        <div class="row app-name">
+          <div class="text-center text-light bg-info col-md-12">
+            <h1>TickTick-Task manager</h1>
+          </div>
+        </div>
+        <div class="search">
+          <div class="container">
+            <form>
+              <div class="row">
+                <div class="col-md-4">
+                  <input type="text" class="search-todos form-control" placeholder="Filter todos"></input>
+                </div>
+                <div class="col-md-8 form-check checkbox">
+                  <label>
+                    <input type="checkbox" class="hideCompleted"/> Hide Completed
+                  </label>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="container">
+          <div class="todo-form">
+            <form>
+              <div class="row status-header">
+                <h5 class="showCount text-danger col-md-12 font-weight-bold"></h5>
+              </div>
+              <div class="row">
+                <div class="col-md-4">
+                  <input type="text" class="new-todo form-control" placeholder="Enter todo"/>
+                </div>
+  
+                <div class="col-md-4">
+                  <button type="submit" class="submit-todo btn btn-primary">Add todo</button>
+                </div>
+              </div>              
+            </form>
+          </div>
+
+          </br>
+          
+          <div class="row">
+            <div class="todos col-md-10"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <p>Designed by Govind</p>
+          </div>
+        </div>
+        </div>
+    </div> 
+
+    <script src="uuidv4.js"></script>
+    <script src="jquery.js"></script>
+    <script type="module" src="app.js"></script>
+  </body>
+
+</html>

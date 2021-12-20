@@ -1,0 +1,52 @@
+.wrapper{
+    min-height: 100%;
+    position: relative;
+}
+
+.content{
+    padding-bottom: 100px;
+}
+
+.footer{
+    position: absolute;
+    height: 60px;
+    bottom: 10px;
+}
+
+body, html{
+    height: 100%;
+}
+
+.search{
+    background-color: aqua;
+    height: 4em;
+}
+
+.checkbox{
+    margin-top: 2%;
+}
+
+.search-todos{
+    margin-top: 1em;
+}
+
+.status-header{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.singleTodo{
+    column-width: 1%;
+    margin-bottom: 2%;;
+}
+
+.app-name{
+    background-color: blueviolet;
+}
+
+.element-name{
+    font-size: large;
+}
+
+.form-check-input{
+    margin-top: 0.5em;
+}
